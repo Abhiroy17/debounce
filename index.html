@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script defer src="debounce.js"></script>
+    <style>
+.input{
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 0.2 rgb(0,0,0.5);
+}
+    </style>
+</head>
+<body>
+    <input class="debounce-input input" placeholder="input with debounce" type="text">
+    <input class="normal-input input" placeholder="input without debounce" type="text">
+    <h2>Output</h2>
+    <div class="result"></div>
+</body>
+</html>
